@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="interestcal.css">
+</head>
+<body>
+    <section>
+        <div class="ddiv">
+            <h2>Simple Calculator</h2>
+            <p class="p1">Calculate your simple interest Easily</p>
+        </div>
+        <article>
+            
+            <h4 id="displayresult"></h4>
+            
+            <p class="p2"  id="p2">Simple Interest Calculated</p>
+        </article>
+        <form action="#" class="inform">
+            <input type="number" placeholder="Principal amount" id="principal" class="inputVal">
+            <input type="number" placeholder="Rate of interest (p.a)" id="rateOfInt" class="inputVal">
+            <input type="number" placeholder="e.g (3) years" id="year" class="inputVal">
+        </form>
+        <div class="buttons">
+            <button onclick="intcalc()" class="bt1">Calculate</button>
+            <button onclick="reset()" class="bt2">Reset</button>
+        </div>
+    </section>
+
+    <script src="interestcal.js"></script>
+</body>
+</html>

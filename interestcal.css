@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+section{
+    width: 519px;
+    margin: 0 auto;
+    padding: 0, 61px, 0, 46px;
+    border: 1px solid;
+    background-color: #fffcf9;
+}
+.ddiv{
+    margin: 25px 0;
+    margin-left: 30px;
+
+}
+h2{
+    font-size: 20px;
+}
+#displayresult{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 13px;
+    
+}
+.p1{
+    font-size: 12px;
+    margin-bottom: 31px;
+    color: #999595;
+    ;
+}
+.p2{
+    font-size: 14px;
+}
+article{
+    width: 454px;
+    height: 138px;
+    margin: 0 auto;
+    top: 270px;
+    left: 493px;
+    background-color:#D6FF58;
+    text-align: center;
+    padding-top: 35px;
+
+}
+.inform{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin: 0 auto;
+    gap: 26px;
+    margin-top: 39px;
+    margin-bottom: 61px;
+    
+}
+.inputVal{
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid;
+}
+.buttons{
+    text-align: center;
+    margin-bottom: 54px;
+}
+.bt1{
+    padding: 25px 63px;
+    color: white;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
+.bt1:hover{
+    background-color: #242424;
+    color: #e0fb8d;
+}
+.bt2{
+    padding: 25px 75px;
+    background-color: #E4E5DE;
+    border: none;
+    color: #535353;
+    cursor: pointer;
+}
